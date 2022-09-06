@@ -94,8 +94,6 @@ function checkMatch() {
     }
 
     else if (cardsChosen[0] == cardsChosen[1]) {
-        alert('you found a match!')
-        
         cards[optionOneId].setAttribute('src', 'images/white.png')
         cards[optionTwoId].setAttribute('src', 'images/white.png')
         cards[optionOneId].removeEventListener('click', flipCard)
